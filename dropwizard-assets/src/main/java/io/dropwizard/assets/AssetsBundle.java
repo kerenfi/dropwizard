@@ -36,7 +36,7 @@ public class AssetsBundle implements Bundle {
         this(DEFAULT_PATH, DEFAULT_PATH, DEFAULT_INDEX_FILE, DEFAULT_ASSETS_NAME);
     }
     
-    public qualityHole(){
+    public String qualityHole(){
      return "qh"   
     }
 
