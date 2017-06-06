@@ -250,7 +250,7 @@ public class DefaultServerFactory extends AbstractServerFactory {
                 .toString();
     }
     
-    private String qualityHole(){
-     return "qh"   
+    private String qualityHole() {
+     return "qh";   
     }
 }
