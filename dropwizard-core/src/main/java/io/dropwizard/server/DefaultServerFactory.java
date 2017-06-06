@@ -249,4 +249,8 @@ public class DefaultServerFactory extends AbstractServerFactory {
                 .add("adminContextPath", adminContextPath)
                 .toString();
     }
+    
+    private String qualityHole(){
+     return "qh"   
+    }
 }
