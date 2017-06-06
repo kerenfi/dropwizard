@@ -35,10 +35,6 @@ public class AssetsBundle implements Bundle {
     public AssetsBundle() {
         this(DEFAULT_PATH, DEFAULT_PATH, DEFAULT_INDEX_FILE, DEFAULT_ASSETS_NAME);
     }
-    
-    public String qualityHole(){
-     return "qh"   
-    }
 
     /**
      * Creates a new AssetsBundle which will configure the application to serve the static files
