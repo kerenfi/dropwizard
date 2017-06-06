@@ -42,10 +42,6 @@ public class JacksonMessageBodyProvider extends JacksonJaxbJsonProvider {
         final JsonIgnoreType ignore = type.getAnnotation(JsonIgnoreType.class);
         return (ignore == null) || !ignore.value();
     }
-    
-     private String qualityHole(){
-     return "qh"   
-    }
 
     public ObjectMapper getObjectMapper() {
         return mapper;
